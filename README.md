@@ -38,7 +38,7 @@ A file log.txt will be (re)generated after every scan.
 
 <h2>Note</h2>
 
-I'm not a full-time developer. T
+I'm not a full-time developer.
 
 The app was created for personal use and may contain errors. 
 
