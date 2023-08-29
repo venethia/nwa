@@ -12,6 +12,6 @@ You can build your own list of negative words editing neg.txt
 
 This app was built with Python3, HTML, CSS.
 
-If you don't have a personal server, you can buy a basic plan of <a href="https://www.pythonanywhere.com">Python Anywhere</a>.
+If you don't have a personal server, you can buy a basic plan of <a href="https://www.pythonanywhere.com">Python Anywhere</a> (Free plan blocks websites scan).
 
 
