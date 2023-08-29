@@ -12,7 +12,7 @@ You can build your list of negative words by editing the file neg.txt
 
 The app isn't perfect, so you can edit the file exclude.txt to not scan the titles that contain some words (e.g. titles of news categories).
 
-This app was built with Python3, HTML, and CSS.
+This app was built with Python3 (Flask), HTML, and CSS.
 
 If you don't have a personal server, you can buy a basic plan of <a href="https://www.pythonanywhere.com" target="_blank">Python Anywhere</a> (The free plan blocks website scan).
 
