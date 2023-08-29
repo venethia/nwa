@@ -14,7 +14,7 @@ The app isn't perfect, so you can edit the file exclude.txt to not scan the titl
 
 This app was built with Python3, HTML, and CSS.
 
-If you don't have a personal server, you can buy a basic plan of <a href="https://www.pythonanywhere.com">Python Anywhere</a> (The free plan blocks website scan).
+If you don't have a personal server, you can buy a basic plan of <a href="https://www.pythonanywhere.com" target="_blank">Python Anywhere</a> (The free plan blocks website scan).
 
 Tested on Debian 11 and Ubuntu 22.04.
 
