@@ -8,7 +8,7 @@ Researchers and scientists report many dangerous effects of reading negative new
 
 <h2>Technical details</h2>
 
-You can build your own list of negative words editing the file neg.txt
+You can build your own list of negative words by editing the file neg.txt
 
 This app was built with Python3, HTML, CSS.
 
