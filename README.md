@@ -38,8 +38,6 @@ A file log.txt will be (re)generated after every scan.
 
 <h2>Note</h2>
 
-I'm not a full-time developer.
-
 The app was created for personal use and may contain errors. 
 
 Feel free to fork it and make changes.
