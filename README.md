@@ -1,5 +1,4 @@
-# Negative Word Analyzer
-# How to deal with online negativity
+# Negative Word Analyzer (How to deal with online negativity)
 
 I created this simple app to scan the titles of news websites before visit them and and see if it's worth it.
 
