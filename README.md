@@ -8,8 +8,8 @@ Researchers and scientists report many dangerous effects of reading negative new
 
 You can build your own list of negative words editing neg.txt
 
-This app was built for personale use with Python3 (+plugin), HTML, CSS.
+This app was built with Python3, HTML, CSS.
 
-You can do anything you want with it.
+If you don't have a personal server, you can buy a basic plan of <a href="https://www.pythonanywhere.com">Python Anywhere</a>
 
 
