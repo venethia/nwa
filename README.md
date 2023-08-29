@@ -21,4 +21,12 @@ If you don't have a personal server, you can buy a basic plan of <a href="https:
 - Insert the URL of the site
 - Insert the number of the titles to analyze (if you insert 10, only the first 10 titles will be analyzed).
 
+<h2>Note</h2>
+
+Pay attention: I'm not a full time developer, so the app was created for personal use and may contains errors. Feel free to fork and make changes.
+
+<h2>Contacts:</h2> 
+
+Email: nwa(dot)matteospigolon(dot)com
+
 
