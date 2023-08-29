@@ -20,7 +20,7 @@ Tested on Debian 11 and Ubuntu 22.04.
 
 You don't need a web server.
 
-To start the app in the background: sudo nohup python3 app.py &
+To start the app in the background: <code>sudo nohup python3 app.py &</code>
 
 A file log.txt will be (re)generated after every scan.
 
