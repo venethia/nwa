@@ -14,4 +14,9 @@ This app was built with Python3, HTML, CSS.
 
 If you don't have a personal server, you can buy a basic plan of <a href="https://www.pythonanywhere.com">Python Anywhere</a> (Free plan blocks websites scan).
 
+<h2> How to use the app</h2>
+
+- Insert the URL of the site
+- Insert the number of the titles to analyze (if you insert 10, only the first 10 titles will be analyzed).
+
 
