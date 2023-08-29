@@ -1,6 +1,6 @@
 # Negative Words Analyzer (How to deal with online negativity)
 
-I created this simple app to scan the titles of news websites before visit them and and see if it's worth it.
+I created this simple app to scan the titles of news websites before visit them and see if it's worth it.
 
 Negative news impact on our mental health and we need to be very selective.
 
