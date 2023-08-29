@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Negative Words Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}?v={{ version }}">
+    <script>
+        // Funzione per ripulire i campi di input e gli elementi HTML dei risultati
+        function resetPage() {
+            document.getElementById("website_url").value = "";
+            document.getElementById("num_titles").value = "";
+            document.getElementById("results").style.display = "none";
+        }
+    </script>
+</head>
+<body onload="resetPage()"> <!-- Chiamata alla funzione resetPage() al caricamento della pagina -->
+    <div class="container">
+    <img src="{{ url_for('static', filename='logonwa.jpg') }}" alt="Logo" class="logo">
+    <h1>Quante notizie negative ci sono?</h1>
+
+    <!-- Div per visualizzare il messaggio di errore -->
+    <div id="flash-message">
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <ul class="flash-messages">
+                    {% for message in messages %}
+                        <li>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+    </div>
+
+    <form method="post" autocomplete="off"> <!-- Aggiunta dell'attributo autocomplete="off" al form -->
+	 <input type="text" name="website_url" id="website_url" placeholder="Inserisci indirizzo sito (es. www.sito.it)" required>
+            <input type="number" name="num_titles" id="num_titles" placeholder="Inserisci n. di titoli da analizzare" required>
+            <button type="submit">Inizia analisi</button>
+    </form>
+    <br>
+     <label class="label-note">Data la diversa struttura dei siti, per ora il funzionamento è stato testato su corriere.it, www.repubblica.it, fanpage.it, ilfattoquotidiano.it. Nulla toglie che possa funzionare su altri siti. Il software è in versione alpha e potrebbe contenere errori.</label>
+    </div>
+    <!-- Elementi HTML per mostrare i risultati della ricerca -->
+    <div id="results" style="display: none;">
+        <h2>Risultati:</h2>
+        <!-- Inserire qui gli elementi HTML per mostrare i risultati -->
+    </div>
+</body>
+</html>

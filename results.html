@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risultati - Negative Words Analyzer</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}?v=1">
+</head>
+<body>
+<div class="container">
+        <h1>Risultati - Negative Words Analyzer</h1>
+        <div class="result-info">
+	<p>Totale titoli analizzati: {{ total_titles }}</p>
+        <p>Titoli che contengono parole negative: {{ neg_title_count }}</p>
+        <p>Percentuali di titoli sul totale che contengono parole negative: {{ percentage }}%</p>
+        </div>
+	<table>
+            <tr>
+                <th>Titolo</th>
+                <th>Parole negative trovate</th>
+            </tr>
+            {% for entry in log_data %}
+            <tr>
+                <td>{{ entry.title }}</td>
+                <td>
+                    {% if entry.neg_words %}
+                        {{ entry.neg_words|join(', ') }}
+                    {% else %}
+                        None
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+        <a href="/">Nuova Ricerca</a>
+    </div>
+</body>
+</html>
