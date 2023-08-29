@@ -16,6 +16,14 @@ This app was built with Python3, HTML, CSS.
 
 If you don't have a personal server, you can buy a basic plan of <a href="https://www.pythonanywhere.com">Python Anywhere</a> (Free plan blocks websites scan).
 
+Tested on Debian 11 and Ubuntu 22.04.
+
+You don't need a webserver.
+
+To start the app in background: sudo nohup python3 app.py &
+
+A file log.txt will be generated.
+
 <h2> How to use the app</h2>
 
 - Insert the URL of the site
