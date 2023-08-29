@@ -20,7 +20,7 @@ Tested on Debian 11 and Ubuntu 22.04.
 
 You don't need a webserver.
 
-To start the app in background: sudo nohup python3 app.py &
+To start the app in background: <code>sudo nohup python3 app.py &</code>
 
 A file log.txt will be generated.
 
