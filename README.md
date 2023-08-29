@@ -10,6 +10,8 @@ Researchers and scientists report many dangerous effects of reading negative new
 
 You can build your own list of negative words by editing the file neg.txt
 
+Tha app isn't perfect, so you can edit the file exclude.txt if to not scan the titles that contain some words (ex. titles of news categories).
+
 This app was built with Python3, HTML, CSS.
 
 If you don't have a personal server, you can buy a basic plan of <a href="https://www.pythonanywhere.com">Python Anywhere</a> (Free plan blocks websites scan).
