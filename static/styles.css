@@ -1,0 +1,122 @@
+/* Reset CSS */
+body, h1, p, form, input, button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #050505;
+    display: flex;
+    justify-content: center; /* Centra il contenuto orizzontalmente */
+    align-items: center; /* Centra il contenuto verticalmente */
+    min-height: 100vh; /* Imposta l'altezza minima al 100% della viewport */
+}
+
+.container {
+    max-width: 500px;
+    text-align: center; /* Centra il testo all'interno del container */
+    padding: 20px;
+    background-color: transparent; /* Sfondo trasparente */
+    border-radius: 10px;
+    color: white; /* Testo bianco */
+}
+
+/* Stile del logo */
+.logo {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto 20px; /* Posiziona il logo 20px sotto il titolo e lo centra orizzontalmente */
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra il contenuto verticalmente */
+}
+
+/* Stile dei campi di input */
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid white; /* Bordo leggermente più spesso e bianco */
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Imposta il box-sizing per includere il padding nella larghezza totale */
+    color: white; /* Testo bianco */
+    background-color: transparent;
+}
+
+/* Imposta la larghezza massima dei campi di input al 90% della larghezza del container */
+input[type="text"], input[type="number"] {
+    max-width: 90%;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: white; /* Sfondo bianco */
+    color: black; /* Testo nero */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f2f2f2;
+}
+
+/* Stile della label sotto al bottone */
+.label-note {
+    text-align: center;
+    font-size: 12px;
+    color: white; /* Testo bianco */
+    margin-top: 20px;
+}
+
+/* Stile per i risultati nella pagina results.html */
+.result-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: black; /* Testo nero */
+}
+
+a {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Add any additional CSS styling you want */
