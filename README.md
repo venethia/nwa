@@ -22,7 +22,9 @@ You don't need a webserver.
 
 To start the app in background: <code>sudo nohup python3 app.py &</code>
 
-A file log.txt will be generated.
+Then open your browser: http://<serverip>:5000
+
+A file log.txt will be (re)generated after every scan.
 
 <h2> How to use the app</h2>
 
