@@ -1,0 +1,2 @@
+# nwa
+Negative Word Analyzer
