@@ -1,4 +1,4 @@
-# Negative Words Analyzer (How to deal with online negativity)
+![immagine](https://github.com/venethia/nwa/assets/95854664/38db62e1-14de-43af-8b1b-20d2692dac5f)# Negative Words Analyzer (How to deal with online negativity)
 
 I created this simple app to scan the titles of italian news websites before visit them and see if it's worth it.
 
@@ -29,6 +29,10 @@ A file log.txt will be (re)generated after every scan.
 - Open your browser: <code>http://yourserverip:5000</code>
 - Insert the URL of the site
 - Insert the number of the titles to analyze (if you insert 10, only the first 10 titles will be analyzed).
+
+<h2>Screenshots</h2>
+
+<img src="
 
 <h2>Note</h2>
 
