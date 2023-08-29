@@ -34,7 +34,7 @@ A file log.txt will be (re)generated after every scan.
 
 ![immagine](https://github.com/venethia/nwa/assets/95854664/38db62e1-14de-43af-8b1b-20d2692dac5f)
 
-<img src="
+<img src=""
 
 <h2>Note</h2>
 
