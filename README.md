@@ -32,7 +32,7 @@ A file log.txt will be (re)generated after every scan.
 
 <h2>Note</h2>
 
-Pay attention: I'm not a full time developer, so the app was created for personal use and may contains errors. Feel free to fork and make changes.
+Pay attention: I'm not a full time developer, so the app was created for personal use and may contain errors. Feel free to fork and make changes.
 
 <h2>Contacts:</h2> 
 
