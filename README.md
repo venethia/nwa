@@ -4,7 +4,7 @@ I created this simple app to scan the titles of news websites before visit them 
 
 Negative news impact on our mental health and we need to be very selective.
 
-You can build your own list of negative words simply by editing neg.txt
+You can build your own list of negative words editing neg.txt
 
 This app was built for personale use with Python3 (+plugin), HTML, CSS, PHP.
 
