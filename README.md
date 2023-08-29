@@ -22,12 +22,11 @@ You don't need a webserver.
 
 To start the app in background: <code>sudo nohup python3 app.py &</code>
 
-Then open your browser: <code>http://yourserverip:5000</code>
-
 A file log.txt will be (re)generated after every scan.
 
 <h2> How to use the app</h2>
 
+- Open your browser: <code>http://yourserverip:5000</code>
 - Insert the URL of the site
 - Insert the number of the titles to analyze (if you insert 10, only the first 10 titles will be analyzed).
 
