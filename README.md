@@ -20,7 +20,7 @@ Tested on Debian 11 and Ubuntu 22.04.
 
 You don't need a web server.
 
-1. Clone the repository: <code>https://github.com/venethia/nwa.git</code>
+1. Clone the repository: <code>git clone https://github.com/venethia/nwa.git</code>
 2. Change directory <code>cd nwa</code>
 3. Start the app in the background: <code>sudo nohup python3 app.py &</code>
 
