@@ -6,7 +6,7 @@ Negative news impacts our mental health and we need to be very selective.
 
 Researchers and scientists report many dangerous effects of reading negative news (not only on social media), such as anxiety, depression, information overload, lack of online safety, invasion of privacy, deception, conflicts, and more.
 
-<h2>Technical details</h2>
+<h2>Technical details and how to install the app</h2>
 
 You can build your list of negative words by editing the file neg.txt
 
@@ -20,7 +20,9 @@ Tested on Debian 11 and Ubuntu 22.04.
 
 You don't need a web server.
 
-To start the app in the background: <code>sudo nohup python3 app.py &</code>
+1. Clone the repository: <code>https://github.com/venethia/nwa.git</code>
+2. Change directory <code>cd nwa</code>
+3. Start the app in the background: <code>sudo nohup python3 app.py &</code>
 
 A file log.txt will be (re)generated after every scan.
 
