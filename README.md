@@ -2,7 +2,7 @@
 
 I created this simple app to scan the titles of Italian news websites before visiting them and see if it's worth it.
 
-Negative news impacts our mental health and we need to be very selective.
+<a href="https://nordpass.com/it/blog/how-to-deal-with-online-negativity/">Negative news impacts our mental health</a> and we need to be very selective.
 
 Researchers and scientists report many dangerous effects of reading negative news (not only on social media), such as anxiety, depression, information overload, lack of online safety, invasion of privacy, deception, conflicts, and more.
 
